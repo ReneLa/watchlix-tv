@@ -1,0 +1,34 @@
+{
+    "platforms": {},
+    "defaults": {
+        "title": "Welcome to Watchlix",
+        "id": "com.lasofts.watchlix",
+        "supportedPlatforms": [
+            "androidtv",
+            "firetv",
+            "web",
+            "macos",
+            "tvos",
+            "tizen",
+            "webos"
+        ]
+    },
+    "engines": {
+        "@rnv/engine-rn": "source:rnv",
+        "@rnv/engine-rn-next": "source:rnv",
+        "@rnv/engine-rn-tvos": "source:rnv",
+        "@rnv/engine-rn-web": "source:rnv"
+    },
+    "plugins": {},
+    "extendsTemplate": "renative.json",
+    "projectName": "Watchlix",
+    "workspaceID": "rnv",
+    "templates": {
+        "@flexn/create-template-starter": {
+            "version": "1.3.0-alpha.0"
+        }
+    },
+    "currentTemplate": "@flexn/create-template-starter",
+    "isNew": true,
+    "isMonorepo": false
+}
